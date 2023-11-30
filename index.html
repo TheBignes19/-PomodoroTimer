@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/YeahDev-Icon.ico">
+</head>
+<body>
+    <main>
+        <div class="container">
+        <div class="timer">
+            <P>SESSION</P>
+            <h1 id="counter">25:00</h1>
+            <div class="buttons">
+                <button type="button" class="startButton">Start</button>
+                <button class="resetButton">Reset</button>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="controlBreakLengh">
+                <div class="screen">
+                    <button class="breakSub">-</button>
+                    <span class="breakNumber">5</span>
+                    <button class="breakSum">+</button>
+                </div>
+                Break Length
+            </div>
+            <div class="controlSessionLengh">
+                <div class="screen">
+                    <button class="sessionSub">-</button>
+                    <span class="sessionNumber">25</span>
+                    <button class="sessionSum">+</button>
+                </div>
+                Session Length
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
